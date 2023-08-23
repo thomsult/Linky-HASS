@@ -6,10 +6,13 @@ Linky Home Assistant Integration is not affiliated with Enedis or the Linky smar
 
 
 Please note that the data retrieved from the API is typically available one day behind and it's not possible to fetch the current day's data.
+## Instalation
+
+Copy the contents of the `custom_components` and `www` folders into your Home Assistant's `config` directory.
 
 ## Configuration
 
-1. Copy the contents of `configuration.yaml` and add it to your Home Assistant configuration file.
+1. Copy the contents into to your `configuration.yaml`
 
     ```yaml
     linky:
@@ -18,7 +21,7 @@ Please note that the data retrieved from the API is typically available one day 
       email: !secret linky.email
     ```
 
-2. Copy the contents of `secrets.yaml` and add it to your Home Assistant secrets file.
+2.  Copy the contents into to your `secrets.yaml` and complete your credential
 
     ```yaml
     linky.api_key: Your secret Key
@@ -26,7 +29,7 @@ Please note that the data retrieved from the API is typically available one day 
     linky.email: Your email
     ```
 
-3. Include the Linky resources in your Home Assistant resources.
+3. Copy the contents in your Home Assistant resources.
 
     ```yaml
     resources:

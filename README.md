@@ -52,3 +52,7 @@ Please note that the data retrieved from the API is typically available one day 
 
 The Linky integration is based on the [conso.boris.sh API](
   https://conso.boris.sh)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

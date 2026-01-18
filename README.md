@@ -6,6 +6,9 @@ Linky Home Assistant Integration is not affiliated with Enedis or the Linky smar
 
 
 Please note that the data retrieved from the API is typically available one day behind and it's not possible to fetch the current day's data.
+
+<img width="542" height="363" alt="image" src="https://github.com/user-attachments/assets/f016c281-7c61-49d6-bbae-eb37663dbfa2" />
+
 ## Instalation
 
 Copy the contents of the `custom_components` and `www` folders into your Home Assistant's `config` directory.
